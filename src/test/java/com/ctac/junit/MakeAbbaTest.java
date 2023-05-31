@@ -14,10 +14,12 @@ public class MakeAbbaTest {
         String result1 = makeAbba.makeAbba("Hi", "Bye");
         assertEquals("HiByeByeHi", result1);
 
-        String result2 = makeAbba.makeAbba("Yo", "Alice");
-        assertEquals("YoAliceAliceYo", result2);
+        String result2 = makeAbba.makeAbba("Hi", "Alice");
+        assertEquals("HiAliceAliceHi", result2);
 
         String result3 = makeAbba.makeAbba("What", "Up");
         assertEquals("WhatUpUpWhat", result3);
+
+
     }
 }
